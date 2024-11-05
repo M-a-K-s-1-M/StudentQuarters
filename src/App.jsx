@@ -1,12 +1,12 @@
 import './App.css'
-import MapSection from './components/MapSection';
+import MapMainSection from './components/Maps/MapMainSection/MapMainSection';
 
 
 export default function App() {
 
   return (
     <>
-      <MapSection />
+      <MapMainSection />
     </>
   );
 }
