@@ -4,6 +4,5 @@
 } */
 
 .map-container {
-    width: 1500px;
-    margin: 0 auto;
+    border-radius: 10px;
 }
