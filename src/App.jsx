@@ -1,10 +1,12 @@
 import './App.css'
+import MapSection from './components/MapSection';
 
-function App() {
+
+export default function App() {
+
   return (
     <>
+      <MapSection />
     </>
-  )
+  );
 }
-
-export default App
