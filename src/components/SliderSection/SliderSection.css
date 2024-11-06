@@ -1,0 +1,14 @@
+.sliders.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+.slider-container {
+    display: flex;
+}
+
+.slider-container img {
+    width: 100%;
+
+}
