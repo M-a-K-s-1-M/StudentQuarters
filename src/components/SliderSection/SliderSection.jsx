@@ -35,28 +35,7 @@ export default function SliderSection() {
                                 <a href="#">ссылка</a>
                             </div>
                             <div className="right-side">
-                                <YMaps query={{ apikey: '9f8f472c-08bd-4dbb-8ecb-aeb1629d15e7' }}>
-                                    <section className='map-slider-container'>
-                                        <Map state={{
-                                            center: card.position,
-                                            zoom: 15,
-                                        }} style={{ width: '500px', height: '500px', margin: '0 auto', borderRadius: '10px' }}>
-                                            <Placemark
-                                                geometry={card.position}
-                                                properties={{
-                                                    balloonContentBody: `
-                            <div class="mark-container" style='width: 200px'>
-                              <h3>${card.title}</h3>
-                              <img src="${card.imageUrl}" width='200'/>
-                              <p>${card.descriptionPlacemark}</p>
-                            </div>
-                              `,
-                                                }}
-                                                modules={['geoObject.addon.balloon']}
-                                            />
-                                        </Map>
-                                    </section>
-                                </YMaps>
+
                             </div>
                         </div>
                     </section>

@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    position: fixed;
+    padding: 30px 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #313F38;
+}
+
+.header .logo-container {
+    display: flex;
+    margin-right: 0;
+}
+
+.header .logo-container h3 {
+    margin-right: 5px;
+}
+
+
+.header .logo {
+    position: relative;
+    bottom: 7px;
+    width: 5%;
+
+}
+
+.header nav {
+    margin: 0 auto;
+}
+
+.header nav ul {
+    padding-top: 5px;
+    font-size: 14px;
+    display: flex;
+    gap: 50px;
+}
+
+
+.header nav ul a {
+    color: #fff;
+    transition: all 500ms ease;
+}
+
+.header nav ul a:hover {
+    font-size: 16px;
+    color: #FCD043;
+}

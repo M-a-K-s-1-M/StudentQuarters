@@ -3,8 +3,26 @@
     padding: 0;
 }
 
-:root {
-    text-align: center;
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #FCD043;
+}
+
+img {
     width: 100%;
-    background-color: peachpuff;
+}
+
+:root {
+    width: 100%;
+    min-width: 1440px;
+    margin: 0 auto;
+    background-color: #313F38;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
 }

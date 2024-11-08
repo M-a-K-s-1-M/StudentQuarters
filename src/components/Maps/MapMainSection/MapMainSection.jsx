@@ -10,7 +10,7 @@ export default function MapMainSection() {
           state={{
             center: [56.80902438957232, 60.66610291540516],
             zoom: 12,
-          }} style={{ width: '1000px', height: '600px', margin: '0 auto', textAlign: 'center' }}
+          }} style={{ width: '100%', height: '600px', margin: '0 auto' }}
         >
 
           <Placemark
