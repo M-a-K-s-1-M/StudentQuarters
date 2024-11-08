@@ -1,3 +1,26 @@
 .hero {
-    margin-top: 50px;
+    margin-top: 190px;
+    padding: 0 30px;
+    display: grid;
+    grid-template-columns: 55% 45%;
+    font-size: 15px;
+    line-height: 26px;
+    margin-bottom: 110px;
+}
+
+.hero .hero-title {
+    padding-top: 50px;
+    font-family: "Damion", sans-serif;
+    font-size: 120px;
+}
+
+.hero .hero-title span {
+    color: #FCD043;
+}
+
+.hero p {
+    padding: 10px 20px;
+    text-align: center;
+    border: 3px solid #FCD043;
+    border-radius: 30px;
 }

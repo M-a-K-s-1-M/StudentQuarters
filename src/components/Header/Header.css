@@ -1,12 +1,13 @@
 .header {
     display: flex;
     position: fixed;
-    padding: 30px 20px;
+    padding: 30px 30px;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1;
     background-color: #313F38;
+    border-bottom: 3px solid #FCD043;
 }
 
 .header .logo-container {
@@ -16,6 +17,8 @@
 
 .header .logo-container h3 {
     margin-right: 5px;
+    font-size: 22px;
+    font-weight: 500;
 }
 
 
@@ -27,7 +30,9 @@
 }
 
 .header nav {
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    text-align: center;
+
 }
 
 .header nav ul {
