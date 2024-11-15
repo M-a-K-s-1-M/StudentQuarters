@@ -5,7 +5,7 @@ import './MapMainSection.css'
 export default function MapMainSection() {
   return (
     <YMaps query={{ apikey: '9f8f472c-08bd-4dbb-8ecb-aeb1629d15e7' }}>
-      <section className='map-container'>
+      <section className='map-container' id='map'>
         <Map
           state={{
             center: [56.80902438957232, 60.66610291540516],

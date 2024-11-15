@@ -44,7 +44,7 @@
     margin-bottom: 20px;
 }
 
-.left-side .dormitory-list p {
+.left-side .dormitory-list .content .left-side .dormitory-list p {
     padding: 15px;
     border-radius: 30px;
     border: 3px solid #FCD043;

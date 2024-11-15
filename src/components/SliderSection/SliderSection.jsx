@@ -3,6 +3,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
 import './SliderSection.css';
 import { cards } from '../../data/InfoDormitory';
+import { useState } from 'react';
 
 
 export default function SliderSection() {
@@ -21,20 +22,27 @@ export default function SliderSection() {
         centerMode: true,
     };
 
+    const [status, setStatus] = useState('onExpanded');
+
+
+
     return (
-        <section className='sliders-container'>
+        <section className='sliders-container' >
             <div className='title-wrapper'>
                 <h2>Информация об общежитиях</h2>
             </div>
             <Slider {...settings}>
                 {cards.map(card => (
-                    <section key={card.id} className='slider-container'>
-                        <div className="content">
+                    <section id='slider' key={card.id} className='slider-container'>
+                        <div className="content" >
                             <div className="left-side">
                                 <ul className='dormitory-list'>
                                     <li>
                                         <h3>{card.title}</h3>
-                                        <p>{card.description}</p>
+                                        <div className='text-block'>
+                                            <p className='text-content'>{card.description}</p>
+                                            {/* {status === 'onExpanded' ? <button type='button' className='show-more' onClick={() => setStatus('expanded')}>Подробнее</button> : <button type='button' className='show-more' onClick={() => setStatus('onExpanded')}>Скрыть</button>} */}
+                                        </div>
                                     </li>
 
                                     {card.vkUrl !== '-' &&
