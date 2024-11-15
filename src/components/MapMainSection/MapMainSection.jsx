@@ -1,8 +1,9 @@
-import { YMaps, Map, Placemark, GeolocationControl, RouteButton, SearchControl, ZoomControl } from '@pbe/react-yandex-maps';
+import { YMaps, Map, Placemark, GeolocationControl, RouteButton, ZoomControl } from '@pbe/react-yandex-maps';
 import './MapMainSection.css'
 
 
 export default function MapMainSection() {
+
   return (
     <YMaps query={{ apikey: '9f8f472c-08bd-4dbb-8ecb-aeb1629d15e7' }}>
       <section className='map-container' id='map'>
@@ -10,7 +11,8 @@ export default function MapMainSection() {
           state={{
             center: [56.80902438957232, 60.66610291540516],
             zoom: 12,
-          }} style={{ width: '100%', height: '600px', margin: '0 auto' }}
+          }} style={{ width: '100%', height: '700px', margin: '0 auto' }}
+          modules={['multiRouter.MultiRoute']}
         >
 
           <Placemark
@@ -279,20 +281,20 @@ export default function MapMainSection() {
             modules={['geoObject.addon.balloon']}
           />
 
-          {/* <GeolocationControl options={{ float: "left" }} /> */}
-          {/* <RouteButton
-                        options={{ float: "right" }}
-                        referencePoints={[
-                            [56.81749856789753, 60.61025750000001],
-                            [56.77163406793043, 60.762342499999974]
-                        ]}
-                        params={{
-                            routingMode: 'masstransit', // Режим маршрутизации (можно выбрать другой режим, например, 'pedestrian')
-                        }} /> */}
-          <SearchControl options={{ float: "right" }} />
+          <GeolocationControl options={{ float: "left" }} />
+          <RouteButton
+            options={{ float: "right" }}
+            referencePoints={[
+              [56.81749856789753, 60.61025750000001],
+              [56.77163406793043, 60.762342499999974]
+            ]}
+            params={{
+              routingMode: 'masstransit', // Режим маршрутизации (можно выбрать другой режим, например, 'pedestrian')
+            }} />
+          {/* <SearchControl options={{ float: "right" }} /> */}
           <ZoomControl options={{ float: "right" }} />
         </Map>
       </section>
-    </YMaps>
+    </YMaps >
   )
 }

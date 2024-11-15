@@ -1,0 +1,102 @@
+.footer {
+    height: 150px;
+    background-color: #24302a;
+    display: flex;
+    justify-content: space-around;
+    gap: 90px;
+    padding: 45px 30px;
+    padding-bottom: 30px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer .about-us {
+    margin-left: 20px;
+}
+
+.footer .logo-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.footer .logo-container h3 {
+    margin-right: 5px;
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.footer .logo-container:hover {
+    cursor: pointer;
+}
+
+
+.footer .logo {
+    position: relative;
+    bottom: 7px;
+    width: 6%;
+}
+
+.footer .about-us .description {
+    width: 270px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: 2px solid #FCD043;
+}
+
+.footer .nav-footer {
+    padding: 15px;
+}
+
+.footer .nav-footer li {
+    margin-bottom: 20px;
+    transition: all 500ms ease;
+}
+
+.footer .nav-footer li:hover {
+    color: #FCD043;
+    cursor: pointer;
+}
+
+.footer .nav-footer li:last-child {
+    margin-bottom: 0;
+}
+
+.footer .social-container {
+    padding: 15px;
+}
+
+.footer .social-container h3 {
+    margin-bottom: 20px;
+    font-weight: 400;
+
+}
+
+.footer .social-list a {
+    color: #fff;
+    transition: all 500ms ease;
+}
+
+.footer .social-container a:hover {
+    color: #FCD043;
+    cursor: pointer;
+}
+
+.footer .social-list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.footer .social-list img {
+    transition: all 500ms ease;
+}
+
+.footer .social-list img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.footer .social-list img {
+    width: 45px;
+}

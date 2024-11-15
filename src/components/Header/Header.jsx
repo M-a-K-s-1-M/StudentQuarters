@@ -1,17 +1,8 @@
 import './Header.css';
 import { useEffect } from 'react';
+import scrollIntoView from '../service/scrollIntoView';
 
 export default function Header() {
-
-    function scrollIntoView(id) {
-        const element = document.getElementById(id);
-        if (element) {
-            element.scrollIntoView({
-                behavior: 'smooth',
-                block: 'end'
-            });
-        }
-    }
 
     // Использование в компоненте
     useEffect(() => {
@@ -38,11 +29,11 @@ export default function Header() {
                     <li href='#' onClick={(evt) => {
                         evt.preventDefault();
                         scrollIntoView('map')
-                    }}>Карта</li>
+                    }}>Карта общежитий</li>
                     <li href='#' onClick={(evt) => {
                         evt.preventDefault();
                         scrollIntoView('slider')
-                    }}>Актуальная информация</li>
+                    }}>Информация об общежитиях</li>
                 </ul>
             </nav>
         </header>

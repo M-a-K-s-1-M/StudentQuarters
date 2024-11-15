@@ -14,12 +14,14 @@ export default function SliderSection() {
         speed: 1200,
         slidesToShow: 1,
         slidesToScroll: 1,
-        // autoplay: true,
-        // autoplaySpeed: 3000,
-        // pauseOnHover: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        pauseOnHover: true,
 
         accessibility: true,
         centerMode: true,
+
+
     };
 
     const [status, setStatus] = useState('onExpanded');
@@ -27,13 +29,13 @@ export default function SliderSection() {
 
 
     return (
-        <section className='sliders-container' >
+        <section className='sliders-container' id='slider'>
             <div className='title-wrapper'>
                 <h2>Информация об общежитиях</h2>
             </div>
             <Slider {...settings}>
                 {cards.map(card => (
-                    <section id='slider' key={card.id} className='slider-container'>
+                    <section key={card.id} className='slider-container'>
                         <div className="content" >
                             <div className="left-side">
                                 <ul className='dormitory-list'>
