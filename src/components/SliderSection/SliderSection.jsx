@@ -14,6 +14,7 @@ export default function SliderSection() {
         speed: 1200,
         slidesToShow: 1,
         slidesToScroll: 1,
+
         autoplay: true,
         autoplaySpeed: 3000,
         pauseOnHover: true,
@@ -43,7 +44,6 @@ export default function SliderSection() {
                                         <h3>{card.title}</h3>
                                         <div className='text-block'>
                                             <p className='text-content'>{card.description}</p>
-                                            {/* {status === 'onExpanded' ? <button type='button' className='show-more' onClick={() => setStatus('expanded')}>Подробнее</button> : <button type='button' className='show-more' onClick={() => setStatus('onExpanded')}>Скрыть</button>} */}
                                         </div>
                                     </li>
 

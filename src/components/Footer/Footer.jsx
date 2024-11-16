@@ -19,11 +19,11 @@ export default function Footer() {
                 <li onClick={(evt) => {
                     evt.preventDefault()
                     scrollIntoView('hero')
-                }}>В начало</li>
+                }}>В начало</li><br />
                 <li onClick={(evt) => {
                     evt.preventDefault()
                     scrollIntoView('map')
-                }}>Карта общежитий</li>
+                }}>Карта общежитий</li><br />
                 <li onClick={(evt) => {
                     evt.preventDefault()
                     scrollIntoView('slider')

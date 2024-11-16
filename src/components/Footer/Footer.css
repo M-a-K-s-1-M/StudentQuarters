@@ -1,6 +1,6 @@
 .footer {
     height: 150px;
-    background-color: #24302a;
+    background-color: #252e2a;
     display: flex;
     justify-content: space-around;
     gap: 90px;
@@ -48,14 +48,17 @@
 }
 
 .footer .nav-footer li {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     transition: all 500ms ease;
+    display: inline-block;
 }
 
 .footer .nav-footer li:hover {
     color: #FCD043;
     cursor: pointer;
 }
+
+
 
 .footer .nav-footer li:last-child {
     margin-bottom: 0;
