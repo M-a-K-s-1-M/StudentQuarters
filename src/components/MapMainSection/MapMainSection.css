@@ -8,7 +8,16 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.map-container .title-wrapper {
+    text-align: center;
+}
+
 .map-container .mark-container h3 {
+    display: inline-block;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1.5px solid #313F38;
     margin-bottom: 5px;
 }
 
@@ -19,8 +28,22 @@
 
 .mark-container .description {
     margin-bottom: 7px;
+    padding: 3px 7px;
+    border-radius: 10px;
+    border: 1.5px solid #313F38;
 }
 
-.mark-container .contacts-container img {
-    width: 20px;
+.mark-container .contacts-container a {
+    display: inline-block;
+    color: #313F38;
+    transition: all 500ms ease;
+    padding: 0 5px;
+    border-radius: 10px;
+    border: 1px solid #313F38;
+}
+
+.mark-container .contacts-container a:hover {
+    cursor: pointer;
+    background-color: #313F38;
+    color: #fff;
 }
