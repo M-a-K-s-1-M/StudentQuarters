@@ -129,7 +129,7 @@ const cards = [
     },
     {
         id: 11,
-        imageUrl: '../../public/dormitory11.webp',
+        imageUrl: '../../public/dormitory11.jpg',
         position: [56.83731206785796, 60.6567814999999],
         title: 'Общежитие №11',
         descriptionPlacemark: 'Студенческое общежитие №11 находится по адресу ул. Коминтерна, д. 5.',
@@ -210,7 +210,7 @@ const cards = [
         timeWork: 'Пн – чт. 8:30-17:15; пт. 8:30-16:00'
     }, {
         id: 18,
-        imageUrl: '../../public/dormitoryNVK1.jpg',
+        imageUrl: '../../public/dormitory18.jpg',
         position: [56.77171806793063, 60.760617499999995],
         title: 'Общежитие в НВК №1',
         descriptionPlacemark: 'Общежитие в НВК №1 находится по адресу ул. 100 летия Уральского университета, д. 6.',
@@ -221,7 +221,7 @@ const cards = [
         timeWork: '-'
     }, {
         id: 19,
-        imageUrl: '../../public/dormitoryNVK2.jpg',
+        imageUrl: '../../public/dormitory19.jpg',
         position: [56.77163406793043, 60.762342499999974],
         title: 'Общежитие в НВК №2',
         descriptionPlacemark: 'Общежитие в НВК №2 находится по адресу ул. 100 летия Уральского университета, д. 6/2.',

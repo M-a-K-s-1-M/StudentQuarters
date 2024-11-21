@@ -16,3 +16,11 @@
     width: 200px;
     border-radius: 5px;
 }
+
+.mark-container .description {
+    margin-bottom: 7px;
+}
+
+.mark-container .contacts-container img {
+    width: 20px;
+}

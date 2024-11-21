@@ -1,8 +1,10 @@
 import { YMaps, Map, Placemark, GeolocationControl, RouteButton, ZoomControl } from '@pbe/react-yandex-maps';
 import './MapMainSection.css'
+import { cards } from '../../data/InfoDormitory';
 
 
 export default function MapMainSection() {
+
 
   return (
     <YMaps query={{ apikey: '9f8f472c-08bd-4dbb-8ecb-aeb1629d15e7' }}>
@@ -14,8 +16,28 @@ export default function MapMainSection() {
           }} style={{ width: '100%', height: '700px', margin: '0 auto' }}
           modules={['multiRouter.MultiRoute']}
         >
+          {cards.map(block =>
+            <>
+              <Placemark
+                geometry={block.position}
+                properties={{
+                  balloonContentBody: `
+                              <div class="mark-container" key=${block.id}>
+                                  <h3 class="title">${block.title}</h3>
+                                  <img src="../../../public/dormitory${block.id}.jpg"/>
+                                  <p class="description">${block.descriptionPlacemark}</p>
+                                  <div class="contacts-container">
+                                    <h4 class="title">Контакты</h4>
+                                    <p>Сообщество в <a href=${block.vkUrl}">ВК</a></p>
+                                  </div>
+                              </div>
+                              `,
+                }}
+                modules={['geoObject.addon.balloon']}
+              />
+            </>)}
 
-          <Placemark
+          {/* <Placemark
             geometry={[56.81749856789753, 60.61025750000001]}
             properties={{
               balloonContentBody: `
@@ -279,7 +301,7 @@ export default function MapMainSection() {
                               `,
             }}
             modules={['geoObject.addon.balloon']}
-          />
+          /> */}
 
           <GeolocationControl options={{ float: "left" }} />
           <RouteButton
