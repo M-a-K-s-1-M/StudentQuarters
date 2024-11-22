@@ -1,5 +1,6 @@
 .map-container {
     margin-bottom: 120px;
+    position: relative;
 }
 
 .map-container .mark-container {
