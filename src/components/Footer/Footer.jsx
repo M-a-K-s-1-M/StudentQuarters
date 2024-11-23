@@ -31,7 +31,7 @@ export default function Footer() {
             </ul>
 
             <div className='social-container'>
-                <h3>Социальные сети института</h3>
+                <h3>Социальные сети университета</h3>
                 <ul className='social-list'>
                     <li className='social-item'><a href='https://vk.com/ural.federal.university'><img src='../../../public/vk-icon.svg' /></a></li>
                     <li className='social-item'><a href='https://telegram.me/urfu_ru'><img src='../../../public/tg-icon.svg' /></a></li>
