@@ -6,6 +6,10 @@
     width: 200px;
     text-align: left;
     font-family: 'Roboto', sans-serif;
+    background-color: #313F38;
+    color: #fff;
+    border-radius: 15px;
+    padding: 10px;
 }
 
 .map-container .title-wrapper {
@@ -17,7 +21,7 @@
     text-align: center;
     padding: 5px 10px;
     border-radius: 10px;
-    border: 1.5px solid #313F38;
+    border: 1.5px solid #FCD043;
     margin-bottom: 5px;
 }
 
@@ -30,20 +34,20 @@
     margin-bottom: 7px;
     padding: 3px 7px;
     border-radius: 10px;
-    border: 1.5px solid #313F38;
+    border: 1.5px solid #FCD043;
 }
 
 .mark-container .contacts-container a {
     display: inline-block;
-    color: #313F38;
+    color: #fff;
     transition: all 500ms ease;
     padding: 0 5px;
     border-radius: 10px;
-    border: 1px solid #313F38;
+    border: 1px solid #FCD043;
 }
 
 .mark-container .contacts-container a:hover {
     cursor: pointer;
-    background-color: #313F38;
+    background-color: #FCD043;
     color: #fff;
 }
