@@ -25,9 +25,6 @@ export default function SliderSection() {
 
     };
 
-    const [status, setStatus] = useState('onExpanded');
-
-
 
     return (
         <section className='sliders-container' id='slider'>
@@ -52,7 +49,7 @@ export default function SliderSection() {
                                             <h3>Контакты</h3>
                                             <div>
                                                 <span>Сообщество общежития в <a href={card.vkUrl}>ВК</a></span>
-                                                <span>Председатель ССК <a href={card.chairmanVkUrl}>{card.chairmanName}</a></span>
+                                                {card.chairmanName != '-' && <span>Председатель ССК <a href={card.chairmanVkUrl}>{card.chairmanName}</a></span>}
                                             </div>
                                         </li>
                                     }
