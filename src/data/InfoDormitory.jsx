@@ -75,7 +75,9 @@ const cards = [
     {
         id: 5,
         imageUrl: [
-            '../../public/dormitory5-1.jpg'
+            '../../public/dormitory5-1.jpg',
+            '../../public/dormitory5-2.jpg',
+
         ],
         position: [56.84041406786595, 60.65898199999999],
         title: 'Общежитие №5',
@@ -112,7 +114,9 @@ const cards = [
     {
         id: 7,
         imageUrl: [
-            '../../public/dormitory7-1.jpg'
+            '../../public/dormitory7-1.jpg',
+            '../../public/dormitory7-2.jpg',
+            '../../public/dormitory7-3.jpg',
         ],
         position: [56.83853718735082, 60.65632499073791],
         title: 'Общежитие №7',
@@ -187,6 +191,8 @@ const cards = [
         id: 11,
         imageUrl: [
             '../../public/dormitory11-1.jpg',
+            '../../public/dormitory11-2.jpg',
+            '../../public/dormitory11-3.jpg',
         ],
         position: [56.83731206785796, 60.6567814999999],
         title: 'Общежитие №11',
@@ -203,6 +209,7 @@ const cards = [
             '../../public/dormitory12-1.jpg',
             '../../public/dormitory12-2.jpg',
             '../../public/dormitory12-3.jpg',
+            '../../public/dormitory12-4.jpg',
         ],
         position: [56.837651478346885, 60.65744564418028],
         title: 'Общежитие №12',
