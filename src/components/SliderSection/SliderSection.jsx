@@ -57,7 +57,26 @@ export default function SliderSection() {
                             </div>
 
                             <div className="right-side">
-                                <img src={card.imageUrl} alt={card.title} />
+                                <ul className='slider'>
+
+                                    {card.imageUrl.map(image => <>
+                                        <li className='slide'>
+                                            <img src={image} alt={card.title} />
+                                        </li>
+                                    </>)}
+                                    {/* <li className='slide'>
+                                        <img src={card.imageUrl} alt={card.title} />
+                                    </li>
+                                    <li className='slide'>
+                                        <img src='../../../public/dormitory1.jpg' />
+                                    </li>
+                                    <li className='slide'>
+                                        <img src='../../../public/dormitory2.jpg' />
+                                    </li>
+                                    <li className='slide'>
+                                        <img src='../../../public/dormitory3.jpg' />
+                                    </li> */}
+                                </ul>
 
                                 {card.timeWork !== '-' &&
                                     <div>

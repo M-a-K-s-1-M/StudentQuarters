@@ -26,7 +26,7 @@ export default function MapMainSection() {
                                 <div class="title-wrapper">
                                   <h3 class="title">${card.title}</h3>
                                 </div>
-                                <img src="../../../public/dormitory${card.id}.jpg"/>
+                                <img src="../../../public/dormitory${card.id}-1.jpg"/>
                                 <p class="description">${card.descriptionPlacemark}</p>
                                 <div class="contacts-container">
                                   <h4 class="title">Контакты</h4>

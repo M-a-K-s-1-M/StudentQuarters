@@ -1,7 +1,16 @@
 const cards = [
     {
         id: 1,
-        imageUrl: '../../public/dormitory1.jpg',
+        imageUrl: [
+            '../../public/dormitory1-1.jpg',
+            '../../public/dormitory1-2.jpg',
+            '../../public/dormitory1-3.jpg',
+            '../../public/dormitory1-4.jpg',
+            '../../public/dormitory1-5.jpg',
+            '../../public/dormitory1-6.jpg',
+            '../../public/dormitory1-7.jpg',
+            '../../public/dormitory1-8.jpg',
+        ],
         position: [56.81749856789753, 60.61025750000001],
         title: 'Общежитие №1',
         descriptionPlacemark: 'Студенческое общежитие №1 находится по адресу ул. Большакова, 79.',
@@ -13,7 +22,11 @@ const cards = [
     },
     {
         id: 2,
-        imageUrl: '../../public/dormitory2.jpg',
+        imageUrl: [
+            '../../public/dormitory2-1.jpg',
+            '../../public/dormitory2-2.jpg',
+            '../../public/dormitory2-3.jpg',
+        ],
         position: [56.817591567897736, 60.61095800000002],
         title: 'Общежитие №2',
         descriptionPlacemark: 'Студенческое общежитие №2 находится по адресу ул. Большакова, 77.',
@@ -26,7 +39,13 @@ const cards = [
     },
     {
         id: 3,
-        imageUrl: '../../public/dormitory3.jpg',
+        imageUrl: [
+            '../../public/dormitory3-1.jpg',
+            '../../public/dormitory3-2.jpg',
+            '../../public/dormitory3-3.jpg',
+            '../../public/dormitory3-4.jpg',
+            '../../public/dormitory3-5.jpg',
+        ],
         position: [56.840237067865424, 60.65728449999998],
         title: 'Общежитие №3',
         descriptionPlacemark: 'Студенческое общежитие №3 находится по адресу ул. Малышева, 140.',
@@ -38,7 +57,12 @@ const cards = [
     },
     {
         id: 4,
-        imageUrl: '../../public/dormitory4.jpg',
+        imageUrl: [
+            '../../public/dormitory4-1.jpg',
+            '../../public/dormitory4-2.jpg',
+            '../../public/dormitory4-3.jpg',
+            '../../public/dormitory4-4.jpg',
+        ],
         position: [56.817882567898494, 60.61280849999994],
         title: 'Общежитие №4',
         descriptionPlacemark: 'Студенческое общежитие №4 находится по адресу ул. Большакова, д. 71.',
@@ -50,7 +74,9 @@ const cards = [
     },
     {
         id: 5,
-        imageUrl: '../../public/dormitory5.jpg',
+        imageUrl: [
+            '../../public/dormitory5-1.jpg'
+        ],
         position: [56.84041406786595, 60.65898199999999],
         title: 'Общежитие №5',
         descriptionPlacemark: 'Студенческое общежитие №5 находится по адресу ул. Малышева, д. 144.',
@@ -68,7 +94,12 @@ const cards = [
     },
     {
         id: 6,
-        imageUrl: '../../public/dormitory6.jpg',
+        imageUrl: [
+            '../../public/dormitory6-1.jpg',
+            '../../public/dormitory6-2.jpg',
+            '../../public/dormitory6-3.jpg',
+            '../../public/dormitory6-4.jpg',
+        ],
         position: [56.817286567896986, 60.611991499999995],
         title: 'Общежитие №6',
         descriptionPlacemark: 'Студенческое общежитие №6 находится по адресу ул. Чапаева, д. 16а',
@@ -80,7 +111,9 @@ const cards = [
     },
     {
         id: 7,
-        imageUrl: '../../public/dormitory7.jpg',
+        imageUrl: [
+            '../../public/dormitory7-1.jpg'
+        ],
         position: [56.83853718735082, 60.65632499073791],
         title: 'Общежитие №7',
         descriptionPlacemark: 'Студенческое общежитие №7 находится по адресу ул. Комитерна, д. 3.',
@@ -92,7 +125,19 @@ const cards = [
     },
     {
         id: 8,
-        imageUrl: '../../public/dormitory8.jpg',
+        imageUrl: [
+            '../../public/dormitory8-1.jpg',
+            '../../public/dormitory8-2.jpg',
+            '../../public/dormitory8-3.jpg',
+            '../../public/dormitory8-4.jpg',
+            '../../public/dormitory8-5.jpg',
+            '../../public/dormitory8-6.jpg',
+            '../../public/dormitory8-7.jpg',
+            '../../public/dormitory8-8.jpg',
+            '../../public/dormitory8-9.jpg',
+            '../../public/dormitory8-10.jpg',
+            '../../public/dormitory8-11.jpg',
+        ],
         position: [56.83790415111557, 60.65996249339293],
         title: 'Общежитие №8',
         descriptionPlacemark: 'Студенческое общежитие №8 находится по адресу ул. Комсомольская, д. 70.',
@@ -104,7 +149,13 @@ const cards = [
     },
     {
         id: 9,
-        imageUrl: '../../public/dormitory9.jpg',
+        imageUrl: [
+            '../../public/dormitory9-1.jpg',
+            '../../public/dormitory9-2.jpg',
+            '../../public/dormitory9-3.jpg',
+            '../../public/dormitory9-4.jpg',
+            '../../public/dormitory9-5.jpg',
+        ],
         position: [56.837863015710695, 60.65905242330624],
         title: 'Общежитие №9',
         descriptionPlacemark: 'Студенческое общежитие №9 находится по адресу ул. Фонвизина, 8.',
@@ -116,7 +167,12 @@ const cards = [
     },
     {
         id: 10,
-        imageUrl: '../../public/dormitory10.jpg',
+        imageUrl: [
+            '../../public/dormitory10-1.jpg',
+            '../../public/dormitory10-2.jpg',
+            '../../public/dormitory10-3.jpg',
+            '../../public/dormitory10-4.jpg',
+        ],
         position: [56.842216067870574, 60.64132149999999],
         title: 'Общежитие №10',
         descriptionPlacemark: 'Студенческое общежитие №10 находится по адресу ул. Ленина, д. 66.',
@@ -129,7 +185,9 @@ const cards = [
     },
     {
         id: 11,
-        imageUrl: '../../public/dormitory11.jpg',
+        imageUrl: [
+            '../../public/dormitory11-1.jpg',
+        ],
         position: [56.83731206785796, 60.6567814999999],
         title: 'Общежитие №11',
         descriptionPlacemark: 'Студенческое общежитие №11 находится по адресу ул. Коминтерна, д. 5.',
@@ -141,7 +199,11 @@ const cards = [
     },
     {
         id: 12,
-        imageUrl: '../../public/dormitory12.jpg',
+        imageUrl: [
+            '../../public/dormitory12-1.jpg',
+            '../../public/dormitory12-2.jpg',
+            '../../public/dormitory12-3.jpg',
+        ],
         position: [56.837651478346885, 60.65744564418028],
         title: 'Общежитие №12',
         descriptionPlacemark: 'Студенческое общежитие №12 находится по адресу ул. Фонвизина, д. 4.',
@@ -155,7 +217,10 @@ const cards = [
     },
     {
         id: 13,
-        imageUrl: '../../public/dormitory13.jpg',
+        imageUrl: [
+            '../../public/dormitory13-1.jpg',
+            '../../public/dormitory13-2.jpg',
+        ],
         position: [56.83953306786366, 60.65905399999992],
         title: 'Общежитие №13',
         descriptionPlacemark: 'Студенческое общежитие №13 находится по адресу ул. Комсомольская, 66а.',
@@ -166,7 +231,10 @@ const cards = [
         timeWork: 'Пн – чт. 8:30-17:15; пт. 8:30-16:00'
     }, {
         id: 14,
-        imageUrl: '../../public/dormitory14.jpg',
+        imageUrl: [
+            '../../public/dormitory14-1.jpg',
+            '../../public/dormitory14-2.jpg',
+        ],
         position: [56.839321067863125, 60.65590099999999],
         title: 'Общежитие №14',
         descriptionPlacemark: 'Студенческое общежитие №14 находится по адресу ул. Комитерна, д. 1а.',
@@ -177,7 +245,13 @@ const cards = [
         timeWork: 'Пн – чт. 8:30-17:15; пт. 8:30-16:00'
     }, {
         id: 15,
-        imageUrl: '../../public/dormitory15.jpg',
+        imageUrl: [
+            '../../public/dormitory15-1.jpg',
+            '../../public/dormitory15-2.jpg',
+            '../../public/dormitory15-3.jpg',
+            '../../public/dormitory15-4.jpg',
+            '../../public/dormitory15-5.jpg',
+        ],
         position: [56.8367655678867, 60.657948999999896],
         title: 'Общежитие №15',
         descriptionPlacemark: 'Студенческое общежитие №15 находится по адресу ул. Коминтерна, д.11.',
@@ -188,7 +262,9 @@ const cards = [
         timeWork: 'Пн – чт. 8:30-17:15; пт. 8:30-16:00'
     }, {
         id: 16,
-        imageUrl: '../../public/dormitory16.jpg',
+        imageUrl: [
+            '../../public/dormitory16-1.jpg',
+        ],
         position: [56.84159248324784, 60.658029057925745],
         title: 'Общежитие №16',
         descriptionPlacemark: 'Студенческое общежитие №16 находится по адресу ул. Малышева, д. 127а.',
@@ -199,7 +275,10 @@ const cards = [
         timeWork: 'Пн – чт. 8:30-17:15; пт. 8:30-16:00'
     }, {
         id: 17,
-        imageUrl: '../../public/dormitory17.jpg',
+        imageUrl: [
+            '../../public/dormitory17-1.jpg',
+            '../../public/dormitory17-2.jpg',
+        ],
         position: [56.774391067937536, 60.60801149999998],
         title: 'Общежитие №17',
         descriptionPlacemark: 'Общежитие № 17 находится по адресу ул. Агрономическая, д. 37.',
@@ -210,7 +289,11 @@ const cards = [
         timeWork: 'Пн – чт. 8:30-17:15; пт. 8:30-16:00'
     }, {
         id: 18,
-        imageUrl: '../../public/dormitory18.jpg',
+        imageUrl: [
+            '../../public/dormitory18-1.jpg',
+            '../../public/dormitory18-2.jpg',
+            '../../public/dormitory18-3.jpg',
+        ],
         position: [56.77171806793063, 60.760617499999995],
         title: 'Общежитие в НВК №1',
         descriptionPlacemark: 'Общежитие в НВК №1 находится по адресу ул. 100 летия Уральского университета, д. 6.',
@@ -221,7 +304,11 @@ const cards = [
         timeWork: '-'
     }, {
         id: 19,
-        imageUrl: '../../public/dormitory19.jpg',
+        imageUrl: [
+            '../../public/dormitory19-1.jpg',
+            '../../public/dormitory19-2.jpg',
+            '../../public/dormitory19-3.jpg',
+        ],
         position: [56.77163406793043, 60.762342499999974],
         title: 'Общежитие в НВК №2',
         descriptionPlacemark: 'Общежитие в НВК №2 находится по адресу ул. 100 летия Уральского университета, д. 6/2.',
